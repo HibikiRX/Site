@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SecretZone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="channel-header"># general</div>
+    <div class="messages" id="feed"></div>
+    <form class="message-form" action="/post" method="POST" enctype="multipart/form-data">
+      <textarea name="message"></textarea>
+      <input type="file" name="image">
+      <button type="submit">Envoyer</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
